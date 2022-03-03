@@ -1,3 +1,4 @@
 git add -A
-git commit -a -m "added all"
+read user_commit
+git commit -a -m $user_commit
 git push tarkaha
